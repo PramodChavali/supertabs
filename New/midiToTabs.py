@@ -5,53 +5,9 @@ import os
 from itertools import product
 import tkinter as tk
 
-class PDFtoTabConverter:
-    
-    def __init__(self, root):
-        self.root = root
-        self.root.title("PDF to Tablature Converter")
-        self.root.geometry("500x300")
 
-        # Label
-        self.label = tk.Label(root, text="Upload a PDF file:", font=("Arial", 12))
-        self.label.pack(pady=10)
 
-        # Upload Button
-        self.upload_btn = tk.Button(root, text="Upload PDF", command=self.upload_pdf, font=("Arial", 12))
-        self.upload_btn.pack(pady=5)
-
-        # File Path Display
-        self.file_label = tk.Label(root, text="No file selected", font=("Arial", 10), fg="gray")
-        self.file_label.pack(pady=5)
-
-        # Process Button
-        self.process_btn = tk.Button(root, text="Convert to Tablature", command=self.process_pdf, font=("Arial", 12))
-        self.process_btn.pack(pady=20)
-
-        # Store the selected file path
-        self.file_path = None
-
-    def upload_pdf(self):
-        file_path = filedialog.askopenfilename(filetypes=[("PDF Files", "*.pdf")])
-        if file_path:
-            self.file_path = file_path
-            self.file_label.config(text=os.path.basename(file_path), fg="black")
-
-    def process_pdf(self):
-        if not self.file_path:
-            messagebox.showerror("Error", "Please upload a PDF first!")
-            return
-        
-        # Replace this with your actual processing function
-        messagebox.showinfo("Processing", f"Processing {self.file_path}...")
-
-        # Example of calling your function:
-        # result = your_function(self.file_path)
-        # messagebox.showinfo("Success", "Processing complete!")
-
-root = tk.Tk()
-
-inputPDF = "TestScore.pdf"
+inputPDF = "Test2.pdf"
 inputXML = Get_XML_From_PDF(inputPDF)
 
 # close the bat file that runs the ai
@@ -87,7 +43,7 @@ def convert_musicxml_to_midi(musicxml_path, midi_path):
 # get mxl name and stuff
 
 midi_path = "OUTPUTS\output.mid"  # fix later
-xml_path = "PDFInputs\TestScore.mxl" #fix this
+xml_path = "PDFInputs\Test2.mxl" #fix this
 # Path to save the MIDI file
 
 # Convert MusicXML to MIDI
