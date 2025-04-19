@@ -1,11 +1,11 @@
 from flask import Flask, request, jsonify
-from main import runProgram  # import your existing function
+from main import main  # import your existing function
 
 app = Flask(__name__)
 
 @app.route('/run', methods=['POST'])
 def run():
-    result = runProgram()  # call your script logic
+    result = main()  # call your script logic
     return jsonify({'result': result})
 
 if __name__ == '__main__':
