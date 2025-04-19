@@ -1,12 +1,17 @@
-from flask import Flask, request, jsonify
-from main import main  # import your existing function
+from flask import Flask, request, send_file
+from main import main
+import os
 
 app = Flask(__name__)
 
-@app.route('/run', methods=['POST'])
-def run():
-    result = main()  # call your script logic
-    return jsonify({'result': result})
+@app.route('/upload', methods=['POST'])
+def handle_upload():
+    image = request.files['image']
+    image.save('input.png')  # Save image temporarily
+
+    outputFile = main('input.png')
+
+    return send_file(outputFile, as_attachment=True)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=10000)
+    app.run(debug=True)

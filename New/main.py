@@ -1,27 +1,24 @@
-import os
-import sys
 import subprocess
 from music21 import converter, note, chord
 from PDFtoMXL import *
 from itertools import product, combinations
 
 
-def main():
-    filename = "groovingHigh"
-    inputPDF = "PDFInputs/" + filename + ".jpeg"
+def main(inputPDF):
+
+    filename = inputPDF.split(".")[0]
+
+    #inputPDF = "PDFInputs/" + filename + ".jpeg"
     midi_path = f"MIDIFiles/{filename}.mid"
     xml_file = "XMLOutputs/" + filename + ".musicxml"
 
     # Combine activation and oemer command into a single PowerShell session
-    activate_script = "venv39/Scripts/Activate.ps1"
     oemer_cmd = f"oemer -o {xml_file} {inputPDF}"
-    combined_cmd = f"& '{activate_script}'; {oemer_cmd}"
-    print(f"Running command: {combined_cmd}")
-    result = subprocess.run(["powershell.exe", "-Command", combined_cmd], shell=True, capture_output=True, text=True)
+    print(f"Running command: {oemer_cmd}")
+    result = subprocess.run(["powershell.exe", "-Command", oemer_cmd], shell=True, capture_output=True, text=True)
 
     print("STDOUT:", result.stdout)
     print("STDERR:", result.stderr)
-
 
 
     class TabStrings:
@@ -521,6 +518,8 @@ def main():
     print(printedDString.print)
     print(printedAString.print)
     print(printedLowEString.print)
+
+    return "OUTPUTS/FinalTabs.txt"
 
     #clear the
 
