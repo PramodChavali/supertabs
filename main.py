@@ -47,10 +47,10 @@ def main(inputPDF):
     print("Command to run:", command)
     try:
         print("running command")
-        result = subprocess.run(command, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        print("Success:", result.stdout.decode())
+        result = subprocess.run(command, check=True)
+        print("finished running command")
     except subprocess.CalledProcessError as e:
-        print("Error:", e.stderr.decode())
+        print("Error running command:", e)
 
     print("command block done")
 
