@@ -64,7 +64,7 @@
             formData.append('image', document.getElementById('image').files[0]);
 
             // Send the image to the server
-            fetch('/upload', {
+            fetch('https://supertabs.onrender.com/upload', {
                 method: 'POST',
                 body: formData,
             })

@@ -1,6 +1,7 @@
 from flask import Flask, request, send_file
 import os
 from main import main  # Import your function to process the image
+from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 
@@ -20,7 +21,7 @@ def upload_image():
         return 'No selected file', 400
     
     # Save the uploaded image temporarily
-    filename = os.path.join('uploads', file.filename)
+    filename = os.path.join('PDFInputs/', file.filename)
     file.save(filename)
     
     # Call the function that processes the image and returns the text content
