@@ -6,13 +6,16 @@ import os
 
 def main(inputPDF):
 
+    print("MAIN IS CALLED")
+
     filename = inputPDF.split(".")[0]
     filename = filename.split("/")[1]
+    print(filename, "is the file name")
 
 
     #inputPDF = "PDFInputs/" + filename + ".jpeg"
     midi_path = f"MIDIFiles/{filename}.mid"
-    xml_file = "XMLOutputs/" + filename + ".musicxml"
+    xml_file = f"XMLOutputs/{filename}.musicxml"
 
     if os.path.exists("XMLOutputs/"):
         print("Xml folder exists")
@@ -41,6 +44,7 @@ def main(inputPDF):
     # Combine activation and oemer command into a single PowerShell session
     
     command = ["oemer", "-o", "XMLOutputs/", inputPDF]
+    print("Command to run:", command)
     try:
         print("running command")
         result = subprocess.run(command, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -48,7 +52,7 @@ def main(inputPDF):
     except subprocess.CalledProcessError as e:
         print("Error:", e.stderr.decode())
 
-
+    print("command block done")
 
     class TabStrings:
 
@@ -72,7 +76,7 @@ def main(inputPDF):
     fifthString = ["A2", "A#2", "B2", "C3", "C#3", "D3", "D#3", "E3", "F3", "F#3", "G3", "G#3", "A3", "A#3", "B3", "C4", "C#4", "D4", "D#4", "E4", "F4", "F#4", "G4"]
     sixthString = ["E2", "F2", "F#2", "G2", "G#2", "A2", "A#2", "B2", "C3", "C#3", "D3", "D#3", "E3", "F3", "F#3", "G3", "G#3", "A3", "A#3", "B3", "C4", "C#4", "D4"]
 
-
+    print("beginning conversion from mxl to midi")
 
     def convert_musicxml_to_midi(musicxml_path, midi_path):
         try:
@@ -88,7 +92,7 @@ def main(inputPDF):
 
 
     # Convert MusicXML to MIDI
-    convert_musicxml_to_midi(xml_file, midi_path)
+    convert_musicxml_to_midi(xml_file, "MIDIFiles/")
 
 
 
@@ -105,6 +109,7 @@ def main(inputPDF):
 
 
     # ...existing code...
+    print("extracting notes from midi")
 
     # Load MIDI file and extract notes
     score = converter.parse(midi_path)
