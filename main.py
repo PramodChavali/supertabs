@@ -42,13 +42,12 @@ def main(inputPDF):
     
     command = ["oemer", "-o", "XMLOutputs/", inputPDF]
     try:
+        print("running command")
         result = subprocess.run(command, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         print("Success:", result.stdout.decode())
     except subprocess.CalledProcessError as e:
         print("Error:", e.stderr.decode())
 
-    print("STDOUT:", result.stdout)
-    print("STDERR:", result.stderr)
 
 
     class TabStrings:
