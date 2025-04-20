@@ -7,7 +7,8 @@ from itertools import product, combinations
 def main(inputPDF):
 
     filename = inputPDF.split(".")[0]
-    filename = inputPDF.split("/")[1]
+    filename = filename.split("/")[1]
+
 
     #inputPDF = "PDFInputs/" + filename + ".jpeg"
     midi_path = f"MIDIFiles/{filename}.mid"
