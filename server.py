@@ -13,12 +13,19 @@ def index():
 # Route to handle image upload and return the text file
 @app.route('/upload', methods=['POST'])
 def upload_image():
+
+    required_dirs = ['PDFInputs', 'XMLOutputs', 'MIDIFiles', 'OUTPUTS']
+    for dir in required_dirs:
+        os.makedirs(dir, exist_ok=True)
+
     if 'image' not in request.files:
         return 'No image part', 400
     file = request.files['image']
     
     if file.filename == '':
         return 'No selected file', 400
+    
+    
     
     # Save the uploaded image temporarily
     filename = os.path.join('PDFInputs/', file.filename)
