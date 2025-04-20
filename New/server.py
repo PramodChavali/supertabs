@@ -10,7 +10,7 @@ def index():
     return open('index.html').read()
 
 # Route to handle image upload and return the text file
-@app.route('https://supertabs.onrender.com/upload', methods=['POST'])
+@app.route('/upload', methods=['POST'])
 def upload_image():
     if 'image' not in request.files:
         return 'No image part', 400
