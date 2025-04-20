@@ -15,7 +15,7 @@ def main(inputPDF):
     xml_file = "XMLOutputs/" + filename + ".musicxml"
 
     # Combine activation and oemer command into a single PowerShell session
-    command = f"oemer -o {xml_file} {inputPDF}"
+    command = f"oemer -o XMLOutputs/ {inputPDF}"
     try:
         result = subprocess.run(command, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         print("Success:", result.stdout.decode())
