@@ -17,14 +17,26 @@ def main(inputPDF):
     if os.path.exists("XMLOutputs/"):
         print("Xml folder exists")
 
+    else:
+        print("Xml folder does not exist")
+
     if os.path.exists("PDFInputs/"):
         print("PDF folder exists")
+
+    else:
+        print("PDF folder does not exist")
 
     if os.path.exists("MIDIFiles/"):
         print("Midi folder exists")
 
+    else:
+        print("Midi folder does not exist")
+
     if os.path.exists("OUTPUTS/"): 
         print("Output folder exists")
+
+    else:
+        print("Output folder does not exist")
 
     # Combine activation and oemer command into a single PowerShell session
     command = f"oemer -o XMLOutputs/ {inputPDF}"
