@@ -18,6 +18,8 @@ def upload_image():
     for dir in required_dirs:
         os.makedirs(dir, exist_ok=True)
 
+    
+
     if 'image' not in request.files:
         return 'No image part', 400
     file = request.files['image']

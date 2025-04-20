@@ -1,7 +1,7 @@
 import subprocess
 from music21 import converter, note, chord
-from PDFtoMXL import *
 from itertools import product, combinations
+import os
 
 
 def main(inputPDF):
@@ -13,6 +13,18 @@ def main(inputPDF):
     #inputPDF = "PDFInputs/" + filename + ".jpeg"
     midi_path = f"MIDIFiles/{filename}.mid"
     xml_file = "XMLOutputs/" + filename + ".musicxml"
+
+    if os.path.exists("XMLOutputs/"):
+        print("Xml folder exists")
+
+    if os.path.exists("PDFInputs/"):
+        print("PDF folder exists")
+
+    if os.path.exists("MIDIFiles/"):
+        print("Midi folder exists")
+
+    if os.path.exists("OUTPUTS/"): 
+        print("Output folder exists")
 
     # Combine activation and oemer command into a single PowerShell session
     command = f"oemer -o XMLOutputs/ {inputPDF}"
