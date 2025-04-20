@@ -49,7 +49,7 @@ def main(inputPDF):
         print("running command")
         result = subprocess.run(command, check=True)
         print("finished running command")
-    except subprocess.CalledProcessError as e:
+    except IndexError as e:
         print("Error running command:", e)
 
     print("command block done")
