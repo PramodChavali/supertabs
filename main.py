@@ -7,15 +7,19 @@ from itertools import product, combinations
 def main(inputPDF):
 
     filename = inputPDF.split(".")[0]
+    filename = inputPDF.split("/")[1]
 
     #inputPDF = "PDFInputs/" + filename + ".jpeg"
     midi_path = f"MIDIFiles/{filename}.mid"
     xml_file = "XMLOutputs/" + filename + ".musicxml"
 
     # Combine activation and oemer command into a single PowerShell session
-    oemer_cmd = f"oemer -o {xml_file} {inputPDF}"
-    print(f"Running command: {oemer_cmd}")
-    result = subprocess.run(["powershell.exe", "-Command", oemer_cmd], shell=True, capture_output=True, text=True)
+    command = f"oemer -o {xml_file} {inputPDF}"
+    try:
+        result = subprocess.run(command, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        print("Success:", result.stdout.decode())
+    except subprocess.CalledProcessError as e:
+        print("Error:", e.stderr.decode())
 
     print("STDOUT:", result.stdout)
     print("STDERR:", result.stderr)
