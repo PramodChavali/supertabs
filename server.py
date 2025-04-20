@@ -34,7 +34,7 @@ def upload_image():
     # Return the generated text file for download
     return send_file(result_filename, as_attachment=True)
 
-if __name__ == 'main':
+if __name__ == '__main__':
     print("starting server")
     port = int(os.environ.get("PORT", 5000))  # Fallback to 5000 for local testing
     app.run(host='0.0.0.0', port=port)
