@@ -1,6 +1,6 @@
 from flask import Flask, request, send_file
 import os
-from main import main  # Import your function to process the image
+from midiToTabs import main  # Import your function to process the image
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
@@ -35,14 +35,18 @@ def upload_image():
     
     # Call the function that processes the image and returns the text content
     result_text = main(filename)
+
+    if result_text == 1:
+        return "Error processing the image, please try again with a better image.", 400
     
-    # Save the result text as a downloadable file
-    result_filename = 'result.txt'
-    with open(result_filename, 'w') as result_file:
-        result_file.write(result_text)
-    
-    # Return the generated text file for download
-    return send_file(result_filename, as_attachment=True)
+    else:
+        # Save the result text as a downloadable file
+        result_filename = 'result.txt'
+        with open(result_filename, 'w') as result_file:
+            result_file.write(result_text)
+        
+        # Return the generated text file for download
+        return send_file(result_filename, as_attachment=True)
 
 if __name__ == '__main__':
     print("starting server")

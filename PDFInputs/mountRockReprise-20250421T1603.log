@@ -1,0 +1,60 @@
+2025-04-21 16:03:35,366 INFO [mountRockReprise]                 Book.java:562  | 1 sheet in PDFInputs\mountRockReprise.pdf
+2025-04-21 16:03:35,632 INFO []                 Book.java:2531 | Stored /book.xml
+2025-04-21 16:03:35,634 INFO []                 Book.java:2491 | Book stored as PDFInputs\mountRockReprise.omr
+2025-04-21 16:03:35,646 INFO []                 Book.java:1933 | Book reaching PAGE on sheets:[#1]
+2025-04-21 16:03:35,649 INFO [mountRockReprise]       StepMonitoring.java:98   | LOAD
+2025-04-21 16:03:36,722 INFO [mountRockReprise]            SheetStub.java:1268 | Loaded image #1 2457x3505 from PDFInputs\mountRockReprise.pdf
+2025-04-21 16:03:36,727 INFO [mountRockReprise]       StepMonitoring.java:98   | BINARY
+2025-04-21 16:03:37,225 INFO [mountRockReprise]       StepMonitoring.java:98   | SCALE
+2025-04-21 16:03:37,253 INFO [mountRockReprise]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 19 interline
+2025-04-21 16:03:37,255 INFO [mountRockReprise]         ScaleBuilder.java:264  | Beam measured height: 11 -- 0.43 of [5..19] range at 58% of needed quorum
+2025-04-21 16:03:37,256 INFO [mountRockReprise]            ScaleStep.java:65   | Scale{ interline(19,19,20) line(3,4,5) beam(11)}
+2025-04-21 16:03:37,257 INFO [mountRockReprise]       StepMonitoring.java:98   | GRID
+2025-04-21 16:03:38,072 INFO [mountRockReprise]       LinesRetriever.java:1500 | Global slope: -0.00758
+2025-04-21 16:03:38,147 INFO [mountRockReprise]    ClustersRetriever.java:328  | Retrieved raw line clusters: 7 of sizes [5] with interline(19,19,20)
+2025-04-21 16:03:38,368 INFO [mountRockReprise]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3] #4[4] #5[5] #6[6] #7[7]
+2025-04-21 16:03:39,208 INFO [mountRockReprise]        SystemManager.java:779  | 1 part along 7 systems
+2025-04-21 16:03:39,209 INFO [mountRockReprise]                 Book.java:545  | Created scores: [{Score 1}]
+2025-04-21 16:03:39,210 INFO [mountRockReprise]       StepMonitoring.java:98   | HEADERS
+2025-04-21 16:03:39,822 INFO [mountRockReprise]      BasicClassifier.java:277  | Classifier loaded XML norms.
+2025-04-21 16:03:39,828 INFO [mountRockReprise]   AbstractClassifier.java:396  | Classifier data loaded from default uri jar:file:/C:/Users/Pramo/Downloads/supertabs-6f25a9404804ad8c18eff7c8261fecc12601f9cf/supertabs-audiveris/Audiveris/lib/audiveris.jar!/res/basic-classifier.zip
+2025-04-21 16:03:40,957 INFO [mountRockReprise]       StepMonitoring.java:98   | STEM_SEEDS
+2025-04-21 16:03:41,119 INFO [mountRockReprise]        StemSeedsStep.java:86   | stem(4 max:6)
+2025-04-21 16:03:41,238 INFO [mountRockReprise]       StepMonitoring.java:98   | BEAMS
+2025-04-21 16:03:46,776 INFO [mountRockReprise]       StepMonitoring.java:98   | LEDGERS
+2025-04-21 16:03:47,319 INFO [mountRockReprise]       StepMonitoring.java:98   | HEADS
+2025-04-21 16:03:51,929 INFO [mountRockReprise]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[R:0.4] NOTEHEAD_BLACK[L:0.0]}
+2025-04-21 16:03:51,932 INFO [mountRockReprise]       StepMonitoring.java:98   | STEMS
+2025-04-21 16:03:52,523 INFO [mountRockReprise]       StepMonitoring.java:98   | REDUCTION
+2025-04-21 16:03:52,622 INFO [mountRockReprise]        ReductionStep.java:105  | Stems free length median value: 69 pixels, 3.6 interlines
+2025-04-21 16:03:52,627 INFO [mountRockReprise]       StepMonitoring.java:98   | CUE_BEAMS
+2025-04-21 16:03:52,628 INFO [mountRockReprise]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-04-21 16:03:52,628 INFO [mountRockReprise]       StepMonitoring.java:98   | TEXTS
+2025-04-21 16:03:55,515 INFO [mountRockReprise]             TextWord.java:268  |    Abnormal font ratio 34.97 TextWord{ "v/" bounds[350,1401,963,48] conf:0.44 base[350,1424]-[1313,1418] codes[76,2f] FontInfo{Times_New_Roman S-36}}
+2025-04-21 16:03:55,530 INFO [mountRockReprise]             TextWord.java:268  |    Abnormal font ratio 2.59 TextWord{ "m>f" bounds[1302,2734,58,70] conf:0.76 base[1302,2798]-[1360,2798] codes[6d,3e,66] FontInfo{Times_New_Roman S-37}}
+2025-04-21 16:03:55,889 INFO [mountRockReprise]       StepMonitoring.java:98   | MEASURES
+2025-04-21 16:03:55,917 INFO [mountRockReprise]                 Page.java:307  | 25 raw measures: [2 in system#1, 2 in system#2, 4 in system#3, 4 in system#4, 5 in system#5, 4 in system#6, 4 in system#7]
+2025-04-21 16:03:55,917 INFO [mountRockReprise]       StepMonitoring.java:98   | CHORDS
+2025-04-21 16:03:55,934 INFO [mountRockReprise]       StepMonitoring.java:98   | CURVES
+2025-04-21 16:03:57,576 INFO [mountRockReprise]         SlursBuilder.java:240  | Slurs: 2
+2025-04-21 16:03:57,642 INFO [mountRockReprise]      SegmentsBuilder.java:155  | Segments: 17
+2025-04-21 16:03:57,674 INFO [mountRockReprise]       StepMonitoring.java:98   | SYMBOLS
+2025-04-21 16:03:59,477 INFO [mountRockReprise]       StepMonitoring.java:98   | LINKS
+2025-04-21 16:03:59,481 INFO [mountRockReprise]        SentenceInter.java:461  | No chord near SentenceInter#2060{(0.718) staff:1 mFont:BS-40 Direction} (+K1)
+2025-04-21 16:03:59,484 INFO [mountRockReprise]        SymbolsLinker.java:257  | No chord linked to OctaveShiftInter#2716{(0.138) staff:1 OTTAVA BASSA}
+2025-04-21 16:03:59,498 INFO [mountRockReprise]        SymbolsLinker.java:257  | No chord linked to OctaveShiftInter#2737{(0.138) staff:2 OTTAVA ALTA}
+2025-04-21 16:03:59,506 INFO [mountRockReprise]        SymbolsLinker.java:257  | No chord linked to OctaveShiftInter#2746{(0.153) staff:3 OTTAVA BASSA}
+2025-04-21 16:03:59,564 INFO [mountRockReprise]       StepMonitoring.java:98   | RHYTHMS
+2025-04-21 16:03:59,650 INFO [mountRockReprise]       StepMonitoring.java:98   | PAGE
+2025-04-21 16:03:59,667 INFO [mountRockReprise]                 Book.java:2550 | Book{mountRockReprise} storing
+2025-04-21 16:03:59,751 INFO [mountRockReprise]                 Book.java:2531 | Stored /book.xml
+2025-04-21 16:04:00,000 INFO [mountRockReprise]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2025-04-21 16:04:01,168 INFO [mountRockReprise]                Sheet.java:1561 | Stored /sheet#1/sheet#1.xml
+2025-04-21 16:04:01,169 INFO [mountRockReprise]                 Book.java:2491 | Book stored as PDFInputs\mountRockReprise.omr
+2025-04-21 16:04:01,183 INFO [mountRockReprise]            SheetStub.java:1644 | Disposed sheet
+2025-04-21 16:04:01,257 INFO [mountRockReprise]                 Book.java:2018 | End of Stub#1 memory: 31,850,816
+2025-04-21 16:04:01,258 INFO [mountRockReprise]                 Book.java:2025 | Book processed.
+2025-04-21 16:04:02,412 INFO [mountRockReprise]            SheetStub.java:995  | Loaded /sheet#1/sheet#1.xml
+2025-04-21 16:04:03,439 INFO [mountRockReprise]      PartwiseBuilder.java:2661 | Exporting sheet(s): [#1]
+2025-04-21 16:04:03,589 INFO [mountRockReprise]        ScoreExporter.java:164  | Score mountRockReprise exported to PDFInputs\mountRockReprise.mxl
+2025-04-21 16:04:03,650 INFO [mountRockReprise]                Score.java:181  | Closing {Score 1}

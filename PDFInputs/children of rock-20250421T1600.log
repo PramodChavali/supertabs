@@ -1,0 +1,262 @@
+2025-04-21 16:00:36,237 INFO [children of rock]                 Book.java:562  | 1 sheet in PDFInputs\children of rock.pdf
+2025-04-21 16:00:36,594 INFO []                 Book.java:2531 | Stored /book.xml
+2025-04-21 16:00:36,595 INFO []                 Book.java:2491 | Book stored as PDFInputs\children of rock.omr
+2025-04-21 16:00:36,606 INFO []                 Book.java:1933 | Book reaching PAGE on sheets:[#1]
+2025-04-21 16:00:36,608 INFO [children of rock]       StepMonitoring.java:98   | LOAD
+2025-04-21 16:00:40,119 INFO [children of rock]            SheetStub.java:1268 | Loaded image #1 2550x3299 from PDFInputs\children of rock.pdf
+2025-04-21 16:00:40,132 INFO [children of rock]       StepMonitoring.java:98   | BINARY
+2025-04-21 16:00:40,822 INFO [children of rock]       StepMonitoring.java:98   | SCALE
+2025-04-21 16:00:40,870 INFO [children of rock]         ScaleBuilder.java:241  | Beam  guessed height:  9 -- 0.50 of 18 interline
+2025-04-21 16:00:40,874 INFO [children of rock]         ScaleBuilder.java:264  | Beam measured height: 10 -- 0.38 of [5..18] range at 152% of needed quorum
+2025-04-21 16:00:40,875 INFO [children of rock]            ScaleStep.java:65   | Scale{ interline(17,18,19) line(3,4,5) beam(10)}
+2025-04-21 16:00:40,876 INFO [children of rock]       StepMonitoring.java:98   | GRID
+2025-04-21 16:00:42,843 INFO [children of rock]       LinesRetriever.java:1500 | Global slope: -0.01383
+2025-04-21 16:00:43,066 INFO [children of rock]    ClustersRetriever.java:328  | Retrieved raw line clusters: 8 of sizes [5] with interline(17,18,19)
+2025-04-21 16:00:44,517 INFO [children of rock]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3] #4[4] #5[5] #6[6] #7[7] #8[8]
+2025-04-21 16:00:45,906 INFO [children of rock]        SystemManager.java:779  | 1 part along 8 systems
+2025-04-21 16:00:45,908 INFO [children of rock]                 Book.java:545  | Created scores: [{Score 1}]
+2025-04-21 16:00:45,909 INFO [children of rock]       StepMonitoring.java:98   | HEADERS
+2025-04-21 16:00:46,535 INFO [children of rock]      BasicClassifier.java:277  | Classifier loaded XML norms.
+2025-04-21 16:00:46,542 INFO [children of rock]   AbstractClassifier.java:396  | Classifier data loaded from default uri jar:file:/C:/Users/Pramo/Downloads/supertabs-6f25a9404804ad8c18eff7c8261fecc12601f9cf/supertabs-audiveris/Audiveris/lib/audiveris.jar!/res/basic-classifier.zip
+2025-04-21 16:00:48,669 INFO [children of rock]       StepMonitoring.java:98   | STEM_SEEDS
+2025-04-21 16:00:48,948 INFO [children of rock]        StemSeedsStep.java:86   | stem(4 max:5)
+2025-04-21 16:00:49,432 INFO [children of rock]       StepMonitoring.java:98   | BEAMS
+2025-04-21 16:00:54,336 INFO [children of rock]       StepMonitoring.java:98   | LEDGERS
+2025-04-21 16:00:55,018 INFO [children of rock]       StepMonitoring.java:98   | HEADS
+2025-04-21 16:01:00,902 INFO [children of rock]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:0.4]}
+2025-04-21 16:01:00,902 INFO [children of rock]       StepMonitoring.java:98   | STEMS
+2025-04-21 16:01:02,010 INFO [children of rock]       StepMonitoring.java:98   | REDUCTION
+2025-04-21 16:01:02,204 INFO [children of rock]        ReductionStep.java:105  | Stems free length median value: 84 pixels, 4.7 interlines
+2025-04-21 16:01:02,211 INFO [children of rock]       StepMonitoring.java:98   | CUE_BEAMS
+2025-04-21 16:01:02,211 INFO [children of rock]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-04-21 16:01:02,212 INFO [children of rock]       StepMonitoring.java:98   | TEXTS
+2025-04-21 16:01:04,658 INFO [children of rock]             TextWord.java:268  |    Abnormal font ratio 2.81 TextWord{ "th" bounds[1811,604,56,85] conf:0.59 base[1811,642]-[1867,642] codes[74,68] FontInfo{Verdana 42}}
+2025-04-21 16:01:04,666 INFO [children of rock]             TextWord.java:268  |    Abnormal font ratio 4.00 TextWord{ ">A" bounds[2189,1225,65,34] conf:0.61 base[2189,1259]-[2254,1259] codes[3e,41] FontInfo{Georgia_Bold BS-13}}
+2025-04-21 16:01:04,667 INFO [children of rock]             TextWord.java:268  |    Abnormal font ratio 2.53 TextWord{ "ﬂ>" bounds[1086,1257,55,59] conf:0.49 base[1086,1293]-[1141,1292] codes[fb02,3e] FontInfo{Georgia_Bold BS-32}}
+2025-04-21 16:01:04,668 INFO [children of rock]             TextWord.java:268  |    Abnormal font ratio 2.47 TextWord{ ">/-\" bounds[1290,1255,113,34] conf:0.61 base[1290,1290]-[1403,1287] codes[3e,2f,2d,5c] FontInfo{Courier_New_Bold BMS-32}}
+2025-04-21 16:01:04,669 INFO [children of rock]             TextWord.java:268  |    Abnormal font ratio 4.00 TextWord{ ">A" bounds[2193,1519,65,35] conf:0.60 base[2193,1554]-[2258,1554] codes[3e,41] FontInfo{Georgia_Bold BS-13}}
+2025-04-21 16:01:04,670 INFO [children of rock]             TextWord.java:268  |    Abnormal font ratio 2.45 TextWord{ "#>" bounds[1090,1552,55,60] conf:0.54 base[1090,1589]-[1145,1588] codes[23,3e] FontInfo{Georgia_Bold BS-33}}
+2025-04-21 16:01:04,670 INFO [children of rock]             TextWord.java:268  |    Abnormal font ratio 2.73 TextWord{ ">A" bounds[1294,1550,113,35] conf:0.52 base[1294,1586]-[1407,1583] codes[3e,41] FontInfo{Georgia_Bold BSC-33}}
+2025-04-21 16:01:04,671 INFO [children of rock]             TextWord.java:268  |    Abnormal font ratio 4.00 TextWord{ ">A" bounds[2197,1815,65,34] conf:0.61 base[2197,1849]-[2262,1849] codes[3e,41] FontInfo{Georgia_Bold BS-13}}
+2025-04-21 16:01:04,673 INFO [children of rock]             TextWord.java:268  |    Abnormal font ratio 2.56 TextWord{ "11>" bounds[1094,1848,54,59] conf:0.48 base[1094,1884]-[1148,1883] codes[31,31,3e] FontInfo{Georgia_Bold BS-32}}
+2025-04-21 16:01:04,673 INFO [children of rock]             TextWord.java:268  |    Abnormal font ratio 2.47 TextWord{ ">/-\" bounds[1298,1846,113,34] conf:0.61 base[1298,1881]-[1411,1878] codes[3e,2f,2d,5c] FontInfo{Courier_New_Bold BMS-32}}
+2025-04-21 16:01:04,675 INFO [children of rock]             TextWord.java:268  |    Abnormal font ratio 2.14 TextWord{ ">A" bounds[1324,2141,113,34] conf:0.51 base[1324,2176]-[1437,2174] codes[3e,41] FontInfo{Georgia_Bold BSC-42}}
+2025-04-21 16:01:04,678 INFO [children of rock]             TextWord.java:268  |    Abnormal font ratio 2.88 TextWord{ "l7Ab5" bounds[1104,2422,77,90] conf:0.52 base[1104,2460]-[1181,2459] codes[6c,37,41,62,35] FontInfo{Georgia_Bold BS-43}}
+2025-04-21 16:01:04,681 INFO [children of rock]             TextWord.java:268  |    Abnormal font ratio 4.00 TextWord{ ">A" bounds[2210,2701,65,34] conf:0.57 base[2210,2735]-[2275,2735] codes[3e,41] FontInfo{Georgia_Bold BS-13}}
+2025-04-21 16:01:04,762 WARN [children of rock]       ChordNameInter.java:1023 | ChordName. No kind type for 5
+2025-04-21 16:01:04,764 WARN [children of rock]          TextBuilder.java:471  | Error in guessRole for TextLine{ "Ab5" bounds[1131,612,53,38] conf:0.81 base[1131,650]-[1184,649]} java.lang.NullPointerException: Cannot read field "type" because "kind" is null
+java.lang.NullPointerException: Cannot read field "type" because "kind" is null
+	at org.audiveris.omr.sig.inter.ChordNameInter.parseChord(ChordNameInter.java:617)
+	at org.audiveris.omr.sig.inter.ChordNameInter.createValid(ChordNameInter.java:523)
+	at org.audiveris.omr.text.TextLine.isAllChordNames(TextLine.java:625)
+	at org.audiveris.omr.text.TextRole.guess(TextRole.java:143)
+	at org.audiveris.omr.text.TextBuilder.guessRole(TextBuilder.java:464)
+	at org.audiveris.omr.text.TextBuilder.splitStandardLines(TextBuilder.java:1321)
+	at org.audiveris.omr.text.TextBuilder.recomposeLines(TextBuilder.java:1156)
+	at org.audiveris.omr.text.TextBuilder.processSystem(TextBuilder.java:990)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:113)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:49)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:159)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:179)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$2(SheetStub.java:499)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-21 16:01:04,767 WARN [children of rock]       ChordNameInter.java:1023 | ChordName. No kind type for 5
+2025-04-21 16:01:04,767 WARN [children of rock]          TextBuilder.java:471  | Error in guessRole for TextLine{ "C5" bounds[1369,609,36,39] conf:0.81 base[1369,648]-[1405,648]} java.lang.NullPointerException: Cannot read field "type" because "kind" is null
+java.lang.NullPointerException: Cannot read field "type" because "kind" is null
+	at org.audiveris.omr.sig.inter.ChordNameInter.parseChord(ChordNameInter.java:617)
+	at org.audiveris.omr.sig.inter.ChordNameInter.createValid(ChordNameInter.java:523)
+	at org.audiveris.omr.text.TextLine.isAllChordNames(TextLine.java:625)
+	at org.audiveris.omr.text.TextRole.guess(TextRole.java:143)
+	at org.audiveris.omr.text.TextBuilder.guessRole(TextBuilder.java:464)
+	at org.audiveris.omr.text.TextBuilder.splitStandardLines(TextBuilder.java:1321)
+	at org.audiveris.omr.text.TextBuilder.recomposeLines(TextBuilder.java:1156)
+	at org.audiveris.omr.text.TextBuilder.processSystem(TextBuilder.java:990)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:113)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:49)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:159)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:179)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$2(SheetStub.java:499)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-21 16:01:04,768 WARN [children of rock]       ChordNameInter.java:1023 | ChordName. No kind type for 5
+2025-04-21 16:01:04,768 WARN [children of rock]          TextBuilder.java:471  | Error in guessRole for TextLine{ "G5" bounds[1599,606,37,39] conf:0.83 base[1599,631]-[1636,631]} java.lang.NullPointerException: Cannot read field "type" because "kind" is null
+java.lang.NullPointerException: Cannot read field "type" because "kind" is null
+	at org.audiveris.omr.sig.inter.ChordNameInter.parseChord(ChordNameInter.java:617)
+	at org.audiveris.omr.sig.inter.ChordNameInter.createValid(ChordNameInter.java:523)
+	at org.audiveris.omr.text.TextLine.isAllChordNames(TextLine.java:625)
+	at org.audiveris.omr.text.TextRole.guess(TextRole.java:143)
+	at org.audiveris.omr.text.TextBuilder.guessRole(TextBuilder.java:464)
+	at org.audiveris.omr.text.TextBuilder.splitStandardLines(TextBuilder.java:1321)
+	at org.audiveris.omr.text.TextBuilder.recomposeLines(TextBuilder.java:1156)
+	at org.audiveris.omr.text.TextBuilder.processSystem(TextBuilder.java:990)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:113)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:49)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:159)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:179)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$2(SheetStub.java:499)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-21 16:01:04,770 WARN [children of rock]       ChordNameInter.java:1023 | ChordName. No kind type for 5
+2025-04-21 16:01:04,770 WARN [children of rock]          TextBuilder.java:471  | Error in guessRole for TextLine{ "G5" bounds[2061,601,38,39] conf:0.80 base[2061,640]-[2099,640]} java.lang.NullPointerException: Cannot read field "type" because "kind" is null
+java.lang.NullPointerException: Cannot read field "type" because "kind" is null
+	at org.audiveris.omr.sig.inter.ChordNameInter.parseChord(ChordNameInter.java:617)
+	at org.audiveris.omr.sig.inter.ChordNameInter.createValid(ChordNameInter.java:523)
+	at org.audiveris.omr.text.TextLine.isAllChordNames(TextLine.java:625)
+	at org.audiveris.omr.text.TextRole.guess(TextRole.java:143)
+	at org.audiveris.omr.text.TextBuilder.guessRole(TextBuilder.java:464)
+	at org.audiveris.omr.text.TextBuilder.splitStandardLines(TextBuilder.java:1343)
+	at org.audiveris.omr.text.TextBuilder.recomposeLines(TextBuilder.java:1156)
+	at org.audiveris.omr.text.TextBuilder.processSystem(TextBuilder.java:990)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:113)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:49)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:159)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:179)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$2(SheetStub.java:499)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-21 16:01:04,773 WARN [children of rock]       ChordNameInter.java:1023 | ChordName. No kind type for 5
+2025-04-21 16:01:04,774 WARN [children of rock]          TextBuilder.java:471  | Error in guessRole for TextLine{ "G5" bounds[1599,606,37,39] conf:0.83 base[1599,631]-[1636,631]} java.lang.NullPointerException: Cannot read field "type" because "kind" is null
+java.lang.NullPointerException: Cannot read field "type" because "kind" is null
+	at org.audiveris.omr.sig.inter.ChordNameInter.parseChord(ChordNameInter.java:617)
+	at org.audiveris.omr.sig.inter.ChordNameInter.createValid(ChordNameInter.java:523)
+	at org.audiveris.omr.text.TextLine.isAllChordNames(TextLine.java:625)
+	at org.audiveris.omr.text.TextRole.guess(TextRole.java:143)
+	at org.audiveris.omr.text.TextBuilder.guessRole(TextBuilder.java:464)
+	at org.audiveris.omr.text.TextBuilder.mergeStandardLines(TextBuilder.java:823)
+	at org.audiveris.omr.text.TextBuilder.recomposeLines(TextBuilder.java:1164)
+	at org.audiveris.omr.text.TextBuilder.processSystem(TextBuilder.java:990)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:113)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:49)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:159)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:179)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$2(SheetStub.java:499)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-21 16:01:04,774 WARN [children of rock]       ChordNameInter.java:1023 | ChordName. No kind type for 5
+2025-04-21 16:01:04,775 WARN [children of rock]          TextBuilder.java:471  | Error in guessRole for TextLine{ "Ab5" bounds[1131,612,53,38] conf:0.81 base[1131,650]-[1184,649]} java.lang.NullPointerException: Cannot read field "type" because "kind" is null
+java.lang.NullPointerException: Cannot read field "type" because "kind" is null
+	at org.audiveris.omr.sig.inter.ChordNameInter.parseChord(ChordNameInter.java:617)
+	at org.audiveris.omr.sig.inter.ChordNameInter.createValid(ChordNameInter.java:523)
+	at org.audiveris.omr.text.TextLine.isAllChordNames(TextLine.java:625)
+	at org.audiveris.omr.text.TextRole.guess(TextRole.java:143)
+	at org.audiveris.omr.text.TextBuilder.guessRole(TextBuilder.java:464)
+	at org.audiveris.omr.text.TextBuilder.mergeStandardLines(TextBuilder.java:823)
+	at org.audiveris.omr.text.TextBuilder.recomposeLines(TextBuilder.java:1164)
+	at org.audiveris.omr.text.TextBuilder.processSystem(TextBuilder.java:990)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:113)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:49)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:159)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:179)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$2(SheetStub.java:499)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-21 16:01:04,776 WARN [children of rock]       ChordNameInter.java:1023 | ChordName. No kind type for 5
+2025-04-21 16:01:04,776 WARN [children of rock]          TextBuilder.java:471  | Error in guessRole for TextLine{ "C5" bounds[1369,609,36,39] conf:0.81 base[1369,648]-[1405,648]} java.lang.NullPointerException: Cannot read field "type" because "kind" is null
+java.lang.NullPointerException: Cannot read field "type" because "kind" is null
+	at org.audiveris.omr.sig.inter.ChordNameInter.parseChord(ChordNameInter.java:617)
+	at org.audiveris.omr.sig.inter.ChordNameInter.createValid(ChordNameInter.java:523)
+	at org.audiveris.omr.text.TextLine.isAllChordNames(TextLine.java:625)
+	at org.audiveris.omr.text.TextRole.guess(TextRole.java:143)
+	at org.audiveris.omr.text.TextBuilder.guessRole(TextBuilder.java:464)
+	at org.audiveris.omr.text.TextBuilder.mergeStandardLines(TextBuilder.java:823)
+	at org.audiveris.omr.text.TextBuilder.recomposeLines(TextBuilder.java:1164)
+	at org.audiveris.omr.text.TextBuilder.processSystem(TextBuilder.java:990)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:113)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:49)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:159)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:179)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$2(SheetStub.java:499)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-21 16:01:04,777 WARN [children of rock]       ChordNameInter.java:1023 | ChordName. No kind type for 5
+2025-04-21 16:01:04,778 WARN [children of rock]          TextBuilder.java:471  | Error in guessRole for TextLine{ "G5" bounds[2061,601,38,39] conf:0.80 base[2061,640]-[2099,640]} java.lang.NullPointerException: Cannot read field "type" because "kind" is null
+java.lang.NullPointerException: Cannot read field "type" because "kind" is null
+	at org.audiveris.omr.sig.inter.ChordNameInter.parseChord(ChordNameInter.java:617)
+	at org.audiveris.omr.sig.inter.ChordNameInter.createValid(ChordNameInter.java:523)
+	at org.audiveris.omr.text.TextLine.isAllChordNames(TextLine.java:625)
+	at org.audiveris.omr.text.TextRole.guess(TextRole.java:143)
+	at org.audiveris.omr.text.TextBuilder.guessRole(TextBuilder.java:464)
+	at org.audiveris.omr.text.TextBuilder.mergeStandardLines(TextBuilder.java:823)
+	at org.audiveris.omr.text.TextBuilder.recomposeLines(TextBuilder.java:1164)
+	at org.audiveris.omr.text.TextBuilder.processSystem(TextBuilder.java:990)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:113)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:49)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:159)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:179)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$2(SheetStub.java:499)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-04-21 16:01:04,862 WARN [children of rock]            SheetStub.java:1396 | Error in performing [LOAD, BINARY, SCALE, GRID, HEADERS, STEM_SEEDS, BEAMS, LEDGERS, HEADS, STEMS, REDUCTION, CUE_BEAMS, TEXTS, MEASURES, CHORDS, CURVES, SYMBOLS, LINKS, RHYTHMS, PAGE] java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.text.TextRole.ordinal()" because "role" is null
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.text.TextRole.ordinal()" because "role" is null
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at org.audiveris.omr.sheet.SheetStub.doOneStep(SheetStub.java:514)
+	at org.audiveris.omr.sheet.SheetStub.reachStep(SheetStub.java:1378)
+	at org.audiveris.omr.sheet.Book.reachBookStep(Book.java:1996)
+	at org.audiveris.omr.sheet.Book.transcribe(Book.java:2592)
+	at org.audiveris.omr.sheet.Book.export(Book.java:596)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:896)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:504)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:371)
+	at org.audiveris.omr.Main.main(Main.java:260)
+	at Audiveris.main(Audiveris.java:50)
+Caused by: java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.text.TextRole.ordinal()" because "role" is null
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:186)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$2(SheetStub.java:499)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.text.TextRole.ordinal()" because "role" is null
+	at org.audiveris.omr.text.TextBuilder.createSystemInters(TextBuilder.java:218)
+	at org.audiveris.omr.text.TextBuilder.processSystem(TextBuilder.java:1005)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:113)
+	at org.audiveris.omr.text.TextsStep.doSystem(TextsStep.java:49)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:159)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:179)
+	... 7 common frames omitted
+2025-04-21 16:01:04,864 INFO [children of rock]                 Book.java:2550 | Book{children of rock} storing
+2025-04-21 16:01:04,936 INFO [children of rock]                 Book.java:2531 | Stored /book.xml
+2025-04-21 16:01:05,154 INFO [children of rock]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2025-04-21 16:01:06,095 INFO [children of rock]                Sheet.java:1561 | Stored /sheet#1/sheet#1.xml
+2025-04-21 16:01:06,096 INFO [children of rock]                 Book.java:2491 | Book stored as PDFInputs\children of rock.omr
+2025-04-21 16:01:06,109 INFO [children of rock]            SheetStub.java:1644 | Disposed sheet
+2025-04-21 16:01:06,172 INFO [children of rock]                 Book.java:2018 | End of Stub#1 memory: 31,491,760
+2025-04-21 16:01:06,173 INFO [children of rock]                 Book.java:2025 | Book processed.
+2025-04-21 16:01:06,173 INFO [children of rock]                 Book.java:599  | Could not export since transcription did not complete successfully
+2025-04-21 16:01:06,210 INFO [children of rock]                Score.java:181  | Closing {Score 1}

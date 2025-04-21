@@ -1,0 +1,55 @@
+2025-04-21 15:46:47,032 INFO [chordTesting]                 Book.java:562  | 1 sheet in PDFInputs\chordTesting.pdf
+2025-04-21 15:46:47,295 INFO []                 Book.java:2531 | Stored /book.xml
+2025-04-21 15:46:47,295 INFO []                 Book.java:2491 | Book stored as PDFInputs\chordTesting.omr
+2025-04-21 15:46:47,304 INFO []                 Book.java:1933 | Book reaching PAGE on sheets:[#1]
+2025-04-21 15:46:47,306 INFO [chordTesting]       StepMonitoring.java:98   | LOAD
+2025-04-21 15:46:47,864 INFO [chordTesting]            SheetStub.java:1268 | Loaded image #1 2550x3299 from PDFInputs\chordTesting.pdf
+2025-04-21 15:46:47,873 INFO [chordTesting]       StepMonitoring.java:98   | BINARY
+2025-04-21 15:46:48,552 INFO [chordTesting]       StepMonitoring.java:98   | SCALE
+2025-04-21 15:46:48,571 INFO [chordTesting]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+2025-04-21 15:46:48,572 INFO [chordTesting]         ScaleBuilder.java:264  | Beam measured height: 12 -- 0.40 of [6..21] range at 164% of needed quorum
+2025-04-21 15:46:48,573 INFO [chordTesting]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(2,2,2) beam(12)}
+2025-04-21 15:46:48,574 INFO [chordTesting]       StepMonitoring.java:98   | GRID
+2025-04-21 15:46:48,874 INFO [chordTesting]       LinesRetriever.java:1500 | Global slope: 0.00000
+2025-04-21 15:46:48,894 INFO [chordTesting]    ClustersRetriever.java:328  | Retrieved raw line clusters: 3 of sizes [5] with interline(20,21,21)
+2025-04-21 15:46:49,014 INFO [chordTesting]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3]
+2025-04-21 15:46:49,293 INFO [chordTesting]        SystemManager.java:134  | Indentation detected for system #1
+2025-04-21 15:46:49,294 INFO [chordTesting]        SystemManager.java:779  | 1 part along 3 systems
+2025-04-21 15:46:49,295 INFO [chordTesting]                 Book.java:545  | Created scores: [{Score 1}]
+2025-04-21 15:46:49,296 INFO [chordTesting]       StepMonitoring.java:98   | HEADERS
+2025-04-21 15:46:49,660 INFO [chordTesting]      BasicClassifier.java:277  | Classifier loaded XML norms.
+2025-04-21 15:46:49,664 INFO [chordTesting]   AbstractClassifier.java:396  | Classifier data loaded from default uri jar:file:/C:/Users/Pramo/Downloads/supertabs-6f25a9404804ad8c18eff7c8261fecc12601f9cf/supertabs-audiveris/Audiveris/lib/audiveris.jar!/res/basic-classifier.zip
+2025-04-21 15:46:50,534 INFO [chordTesting]       StepMonitoring.java:98   | STEM_SEEDS
+2025-04-21 15:46:50,661 INFO [chordTesting]        StemSeedsStep.java:86   | stem(4 max:5)
+2025-04-21 15:46:50,699 INFO [chordTesting]       StepMonitoring.java:98   | BEAMS
+2025-04-21 15:46:54,414 INFO [chordTesting]       StepMonitoring.java:98   | LEDGERS
+2025-04-21 15:46:54,485 INFO [chordTesting]       StepMonitoring.java:98   | HEADS
+2025-04-21 15:46:56,604 INFO [chordTesting]        HeadSeedTally.java:235  | Scale information: HeadSeeds{}
+2025-04-21 15:46:56,605 INFO [chordTesting]       StepMonitoring.java:98   | STEMS
+2025-04-21 15:46:56,772 INFO [chordTesting]       StepMonitoring.java:98   | REDUCTION
+2025-04-21 15:46:56,800 INFO [chordTesting]        ReductionStep.java:105  | Stems free length median value: 72 pixels, 3.4 interlines
+2025-04-21 15:46:56,802 INFO [chordTesting]       StepMonitoring.java:98   | CUE_BEAMS
+2025-04-21 15:46:56,803 INFO [chordTesting]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-04-21 15:46:56,804 INFO [chordTesting]       StepMonitoring.java:98   | TEXTS
+2025-04-21 15:46:57,757 INFO [chordTesting]       StepMonitoring.java:98   | MEASURES
+2025-04-21 15:46:57,769 INFO [chordTesting]                 Page.java:307  | 32 raw measures: [10 in system#1, 12 in system#2, 10 in system#3]
+2025-04-21 15:46:57,769 INFO [chordTesting]       StepMonitoring.java:98   | CHORDS
+2025-04-21 15:46:57,777 INFO [chordTesting]       StepMonitoring.java:98   | CURVES
+2025-04-21 15:46:58,694 INFO [chordTesting]         SlursBuilder.java:240  | Slurs: 0
+2025-04-21 15:46:58,701 INFO [chordTesting]      SegmentsBuilder.java:155  | Segments: 1
+2025-04-21 15:46:58,709 INFO [chordTesting]       StepMonitoring.java:98   | SYMBOLS
+2025-04-21 15:46:58,957 INFO [chordTesting]       StepMonitoring.java:98   | LINKS
+2025-04-21 15:46:58,983 INFO [chordTesting]       StepMonitoring.java:98   | RHYTHMS
+2025-04-21 15:46:59,040 INFO [chordTesting]       StepMonitoring.java:98   | PAGE
+2025-04-21 15:46:59,051 INFO [chordTesting]                 Book.java:2550 | Book{chordTesting} storing
+2025-04-21 15:46:59,107 INFO [chordTesting]                 Book.java:2531 | Stored /book.xml
+2025-04-21 15:46:59,320 INFO [chordTesting]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2025-04-21 15:46:59,854 INFO [chordTesting]                Sheet.java:1561 | Stored /sheet#1/sheet#1.xml
+2025-04-21 15:46:59,855 INFO [chordTesting]                 Book.java:2491 | Book stored as PDFInputs\chordTesting.omr
+2025-04-21 15:46:59,867 INFO [chordTesting]            SheetStub.java:1644 | Disposed sheet
+2025-04-21 15:46:59,936 INFO [chordTesting]                 Book.java:2018 | End of Stub#1 memory: 38,146,504
+2025-04-21 15:46:59,936 INFO [chordTesting]                 Book.java:2025 | Book processed.
+2025-04-21 15:47:00,493 INFO [chordTesting]            SheetStub.java:995  | Loaded /sheet#1/sheet#1.xml
+2025-04-21 15:47:01,264 INFO [chordTesting]      PartwiseBuilder.java:2661 | Exporting sheet(s): [#1]
+2025-04-21 15:47:01,399 INFO [chordTesting]        ScoreExporter.java:164  | Score chordTesting exported to PDFInputs\chordTesting.mxl
+2025-04-21 15:47:01,468 INFO [chordTesting]                Score.java:181  | Closing {Score 1}
