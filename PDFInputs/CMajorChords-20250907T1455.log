@@ -1,0 +1,56 @@
+2025-09-07 14:55:30,039 INFO [CMajorChords]                 Book.java:562  | 1 sheet in c:\Users\Pramo\Desktop\Projects\supertabs\PDFInputs\CMajorChords.pdf
+2025-09-07 14:55:30,127 INFO []                 Book.java:2531 | Stored /book.xml
+2025-09-07 14:55:30,127 INFO []                 Book.java:2491 | Book stored as c:\Users\Pramo\Desktop\Projects\supertabs\PDFInputs\CMajorChords.omr
+2025-09-07 14:55:30,129 INFO []                 Book.java:1933 | Book reaching PAGE on sheets:[#1]
+2025-09-07 14:55:30,130 INFO [CMajorChords]       StepMonitoring.java:98   | LOAD
+2025-09-07 14:55:30,285 INFO [CMajorChords]            SheetStub.java:1268 | Loaded image #1 2550x3299 from c:\Users\Pramo\Desktop\Projects\supertabs\PDFInputs\CMajorChords.pdf
+2025-09-07 14:55:30,287 INFO [CMajorChords]       StepMonitoring.java:98   | BINARY
+2025-09-07 14:55:30,510 INFO [CMajorChords]       StepMonitoring.java:98   | SCALE
+2025-09-07 14:55:30,516 INFO [CMajorChords]         ScaleBuilder.java:241  | Beam  guessed height: 10 -- 0.50 of 21 interline
+2025-09-07 14:55:30,517 INFO [CMajorChords]         ScaleBuilder.java:264  | Beam measured height: 14 -- 0.53 of [6..21] range at 439% of needed quorum
+2025-09-07 14:55:30,517 INFO [CMajorChords]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(2,2,3) beam(14)}
+2025-09-07 14:55:30,518 INFO [CMajorChords]       StepMonitoring.java:98   | GRID
+2025-09-07 14:55:30,612 INFO [CMajorChords]       LinesRetriever.java:1500 | Global slope: 0.00000
+2025-09-07 14:55:30,621 INFO [CMajorChords]    ClustersRetriever.java:328  | Retrieved raw line clusters: 1 of sizes [5] with interline(20,21,21)
+2025-09-07 14:55:30,647 INFO [CMajorChords]            PeakGraph.java:310  | Systems: #1[1]
+2025-09-07 14:55:30,737 INFO [CMajorChords]        SystemManager.java:779  | 1 part along 1 system
+2025-09-07 14:55:30,738 INFO [CMajorChords]                 Book.java:545  | Created scores: [{Score 1}]
+2025-09-07 14:55:30,738 INFO [CMajorChords]       StepMonitoring.java:98   | HEADERS
+2025-09-07 14:55:30,858 INFO [CMajorChords]      BasicClassifier.java:277  | Classifier loaded XML norms.
+2025-09-07 14:55:30,860 INFO [CMajorChords]   AbstractClassifier.java:396  | Classifier data loaded from default uri jar:file:/C:/Users/Pramo/Desktop/Projects/supertabs/Audiveris/lib/audiveris.jar!/res/basic-classifier.zip
+2025-09-07 14:55:31,121 INFO [CMajorChords]       StepMonitoring.java:98   | STEM_SEEDS
+2025-09-07 14:55:31,151 INFO [CMajorChords]        StemSeedsStep.java:86   | stem(2 max:3)
+2025-09-07 14:55:31,169 INFO [CMajorChords]       StepMonitoring.java:98   | BEAMS
+2025-09-07 14:55:33,541 INFO [CMajorChords]       StepMonitoring.java:98   | LEDGERS
+2025-09-07 14:55:33,665 INFO [CMajorChords]       StepMonitoring.java:98   | HEADS
+2025-09-07 14:55:34,166 INFO [CMajorChords]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.7,R:-0.4]}
+2025-09-07 14:55:34,167 INFO [CMajorChords]       StepMonitoring.java:98   | STEMS
+2025-09-07 14:55:34,288 INFO [CMajorChords]       StepMonitoring.java:98   | REDUCTION
+2025-09-07 14:55:34,322 INFO [CMajorChords]        ReductionStep.java:105  | Stems free length median value: 62 pixels, 3.0 interlines
+2025-09-07 14:55:34,324 INFO [CMajorChords]       StepMonitoring.java:98   | CUE_BEAMS
+2025-09-07 14:55:34,325 INFO [CMajorChords]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2025-09-07 14:55:34,325 INFO [CMajorChords]       StepMonitoring.java:98   | TEXTS
+2025-09-07 14:55:34,378 WARN [CMajorChords]         TesseractOCR.java:335  | The collection of supported languages is empty
+2025-09-07 14:55:34,378 INFO [CMajorChords]              OcrUtil.java:107  | Missing support for 'eng' language(s)
+2025-09-07 14:55:34,384 INFO [CMajorChords]       StepMonitoring.java:98   | MEASURES
+2025-09-07 14:55:34,390 INFO [CMajorChords]                 Page.java:307  | 5 raw measures: [5 in system#1]
+2025-09-07 14:55:34,391 INFO [CMajorChords]       StepMonitoring.java:98   | CHORDS
+2025-09-07 14:55:34,396 INFO [CMajorChords]       StepMonitoring.java:98   | CURVES
+2025-09-07 14:55:34,666 INFO [CMajorChords]         SlursBuilder.java:240  | Slurs: 0
+2025-09-07 14:55:34,670 INFO [CMajorChords]      SegmentsBuilder.java:155  | Segments: 2
+2025-09-07 14:55:34,672 INFO [CMajorChords]       StepMonitoring.java:98   | SYMBOLS
+2025-09-07 14:55:34,834 INFO [CMajorChords]       StepMonitoring.java:98   | LINKS
+2025-09-07 14:55:34,843 INFO [CMajorChords]       StepMonitoring.java:98   | RHYTHMS
+2025-09-07 14:55:34,857 INFO [CMajorChords]       StepMonitoring.java:98   | PAGE
+2025-09-07 14:55:34,859 INFO [CMajorChords]                 Book.java:2550 | Book{CMajorChords} storing
+2025-09-07 14:55:34,876 INFO [CMajorChords]                 Book.java:2531 | Stored /book.xml
+2025-09-07 14:55:34,936 INFO [CMajorChords]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2025-09-07 14:55:35,051 INFO [CMajorChords]                Sheet.java:1561 | Stored /sheet#1/sheet#1.xml
+2025-09-07 14:55:35,051 INFO [CMajorChords]                 Book.java:2491 | Book stored as c:\Users\Pramo\Desktop\Projects\supertabs\PDFInputs\CMajorChords.omr
+2025-09-07 14:55:35,053 INFO [CMajorChords]            SheetStub.java:1644 | Disposed sheet
+2025-09-07 14:55:35,077 INFO [CMajorChords]                 Book.java:2018 | End of Stub#1 memory: 39,090,072
+2025-09-07 14:55:35,077 INFO [CMajorChords]                 Book.java:2025 | Book processed.
+2025-09-07 14:55:35,310 INFO [CMajorChords]            SheetStub.java:995  | Loaded /sheet#1/sheet#1.xml
+2025-09-07 14:55:35,494 INFO [CMajorChords]      PartwiseBuilder.java:2661 | Exporting sheet(s): [#1]
+2025-09-07 14:55:35,518 INFO [CMajorChords]        ScoreExporter.java:164  | Score CMajorChords exported to c:\Users\Pramo\Desktop\Projects\supertabs\PDFInputs\CMajorChords.mxl
+2025-09-07 14:55:35,540 INFO [CMajorChords]                Score.java:181  | Closing {Score 1}
