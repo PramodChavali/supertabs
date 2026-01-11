@@ -2,6 +2,8 @@
 
 Supertabs is an innovative program that will convert your guitar sheet music into tablature! The program uses a pythong script with Java-based OCR technology from Audiverius to make the magic happen!
 
+Won 2nd Place @ SproutHacks 2025
+
 When you run the program, you'll be met with this window.
 
 <img width="517" height="475" alt="window" src="https://github.com/user-attachments/assets/9cd0e54f-9b65-4ead-b3dc-b98006183c83" />
